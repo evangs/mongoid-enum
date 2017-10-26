@@ -16,8 +16,8 @@ module Mongoid
         create_field field_name, options
 
         create_validations field_name, values, options
-        define_value_scopes_and_accessors field_name, values, options
-        define_field_accessor name, field_name, options
+        #define_value_scopes_and_accessors field_name, values, options
+        #define_field_accessor name, field_name, options
       end
 
       private
